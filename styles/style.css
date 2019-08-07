@@ -1,6 +1,41 @@
-div #google {
-    margin: auto;
+div#google {
+    margin: 200px 50px 10px;
     background-color: blueviolet;
-    padding: 20 50;
-    vertical-align: middle;
+    padding: 20px 50px;
+}
+
+img {
+    display: block;
+    height: 92;
+    width: 272;
+    margin: 0 auto;
+}
+
+input[type=text] {
+    display: block;
+    height: 30px;
+    background-color: white;
+    background-image: url('images/magnifying-glass-512-512.png'); /* not sure about this size */
+    background-size: 10%;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    margin: 20px 50px 10px; 
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 40px;
+}
+
+input[type=text]:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px black, 0 0 25px lightgreen;
+}
+
+div.buttons {
+    display: block;
+    margin: 10px 40px 20px 80px;
+}
+
+input[type=submit]:hover {
+    border: 1px solid grey;
 }
