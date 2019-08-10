@@ -1,7 +1,13 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
 div#google {
-    margin: 200px 50px 10px;
-    background-color: blueviolet;
-    padding: 20px 50px;
+    margin: 50px 150px 40px;
+    min-width: 600px;
+    background-color: white;
+    padding: 150px 0 20px;
 }
 
 img {
@@ -15,27 +21,36 @@ input[type=text] {
     display: block;
     height: 30px;
     background-color: white;
-    background-image: url('images/magnifying-glass-512-512.png'); /* not sure about this size */
-    background-size: 10%;
     background-position: 10px 10px;
-    background-repeat: no-repeat;
-    border: 1px solid grey;
-    margin: 20px 50px 10px; 
+    border: 1px solid rgb(223, 223, 223);
+    margin: 20px 80px 10px; 
     border-radius: 30px;
     padding: 6px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 input[type=text]:hover {
     border: 1px solid white;
-    box-shadow: 0 0 10px black, 0 0 25px lightgreen;
+    box-shadow: 0 1px 2px rgb(201, 201, 201), 1px 1px 5px rgb(196, 241, 196);
 }
 
 div.buttons {
-    display: block;
-    margin: 10px 40px 20px 80px;
+/*    display: block;*/
+    margin: 10px 40px 20px 190px;
+    
+}
+
+input[type=submit] {
+    background-color: #f8f8f8;
+    width: 130px;
+    height: 40px;
+    line-height: 27px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 input[type=submit]:hover {
-    border: 1px solid grey;
+    background-color: #f8f8f8;
+    border: 1px solid lightgrey;
 }
