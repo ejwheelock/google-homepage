@@ -4,10 +4,11 @@ html {
 }
 
 div#google {
-    margin: 50px 150px 40px;
+    display: block;
+    margin: 80px auto;
     min-width: 600px;
     background-color: white;
-    padding: 150px 0 20px;
+    padding: 120px auto;
 }
 
 img {
@@ -18,15 +19,17 @@ img {
 }
 
 input[type=text] {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     height: 30px;
     background-color: white;
-    background-position: 10px 10px;
+/*    background-position: 10px 10px;*/
     border: 1px solid rgb(223, 223, 223);
-    margin: 20px 80px 10px; 
     border-radius: 30px;
-    padding: 6px;
-    padding-left: 20px;
+/*    padding: 6px;*/
+    padding-left: 10px;
 }
 
 input[type=text]:hover {
@@ -35,9 +38,11 @@ input[type=text]:hover {
 }
 
 div.buttons {
-/*    display: block;*/
-    margin: 10px 40px 20px 190px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;    
 }
 
 input[type=submit] {
