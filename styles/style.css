@@ -48,6 +48,10 @@ a.signin {
     border-radius: 2px;
 }
 
+a.signin:hover {
+    text-decoration: none;
+}
+
 div#google {
     display: block;
     margin: 12em auto;
